@@ -86,7 +86,7 @@ h2 {
         height: 50%;
     }
     
-    .logo-wrapper {
+    #logo-wrapper {
         align-items: center;
         justify-content: flex-start;
         padding-top: 76px;
