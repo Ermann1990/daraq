@@ -154,11 +154,12 @@ a.btn svg {
 }
 
 .modal .modal-content {
-    background: #647786;
+    background: #111111;
     margin: 10% auto;
     padding: 20px;
     width: 416px;
     height: 572px;
+    border-radius: 30px;
 }
 
 #myModal .close {
