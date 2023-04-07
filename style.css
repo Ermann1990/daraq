@@ -123,7 +123,9 @@ a.btn {
     font-weight: 200;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    width: 282px;
+    margin: 0 auto;
 }
 
 a.btn:hover {
@@ -143,7 +145,6 @@ a.btn svg {
     max-width: 39px;
     width: 100%;
     height: auto;
-    margin-right: 16px;
 }
 
 #logo-wrapper {
