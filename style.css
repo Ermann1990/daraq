@@ -173,7 +173,7 @@ a.btn svg {
 #myModal .close:focus {
     text-decoration: none;
     cursor: pointer;
-    color:rgba(0, 0, 0, 0.4)
+    opacity: 0.7;
 }
 
 .modal .modal-content-wrapper {
@@ -206,6 +206,7 @@ a.btn svg {
     border: 1px solid #FFFFFF;
     background: transparent;
     padding: 15px 20px;
+    border-radius: 10px;
 }
 
 .modal-content-wrapper form input::placeholder {
@@ -216,12 +217,6 @@ a.btn svg {
 
 .modal .input-wrapper {
     display: flex;
-}
-
-.modal input[name="guests"],
-.modal input[name="time"] {
-    flex-basis: calc(50% - 12px);
-    max-width: calc(50% - 12px);
 }
 
 .modal input[name="guests"] {
