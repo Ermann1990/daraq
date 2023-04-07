@@ -40,7 +40,7 @@ h2 {
     line-height: 1.4;
     color: white;
     text-align: center;
-    margin: 0 auto 32px auto;
+    margin: 32px auto;
     transition: all 0.3s ease-out;
 }
 
@@ -72,7 +72,7 @@ h2 {
     max-width: 350px;
 }
 
-.grid div {
+.grid > div{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -80,7 +80,12 @@ h2 {
     transition: all 0.3s ease-in-out;
 }
 
-.grid div:hover {
+.grid > div .wrapper{
+    height: 50%;
+    padding-top: 50px;
+}
+
+.grid > div:hover {
     background-color: rgba(255, 255, 255, 0.35);
     cursor: pointer;
 }
