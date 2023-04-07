@@ -139,3 +139,101 @@ a.btn svg {
 #logo-wrapper {
     min-width: 350px;
 }
+
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal .modal-content {
+    background: #647786;
+    margin: 10% auto;
+    padding: 20px;
+    width: 416px;
+    height: 572px;
+}
+
+#myModal .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#myModal .close:hover,
+#myModal .close:focus {
+    text-decoration: none;
+    cursor: pointer;
+    color:rgba(0, 0, 0, 0.4)
+}
+
+.modal .modal-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.modal .modal-content-wrapper h4 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+}
+
+.modal .modal-content-wrapper form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    justify-content: space-between;
+}
+
+.modal .modal-content-wrapper form input {
+    height: 52px;
+    border: 1px solid #FFFFFF;
+    background: transparent;
+    padding: 15px 20px;
+}
+
+.modal-content-wrapper form input::placeholder {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.modal .input-wrapper {
+    display: flex;
+}
+
+.modal input[name="guests"],
+.modal input[name="time"] {
+    flex-basis: calc(50% - 12px);
+    max-width: calc(50% - 12px);
+}
+
+.modal input[name="guests"] {
+    margin-right: 24px;
+}
+
+.modal a:hover,
+.modal button:hover {
+    cursor: pointer;
+}
+
+button.btn {
+    padding: 12px 25px;
+    color: #000000;
+    font-size: 25px;
+}
