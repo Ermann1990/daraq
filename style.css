@@ -252,4 +252,5 @@ button.btn {
 
 .btn.golden {
     font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
 }
