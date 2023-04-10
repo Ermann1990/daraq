@@ -1,7 +1,7 @@
 @font-face {
     font-family: "Jost";
     src: local("Jost"),
-        url("fonts/Jost-100-Hairline.otf") format("opentype");
+        url("assets/fonts/Jost-100-Hairline.otf") format("opentype");
 }
 
 body {
@@ -252,8 +252,4 @@ button.btn {
 
 .btn.golden {
     font-family: 'Roboto', sans-serif;
-}
-
-@media (max-width: 767px) {
-
 }
