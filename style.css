@@ -278,6 +278,8 @@ button.btn {
     }
 
     h2 {
-        display: none;
+        font-size: 25px;
+        margin: 0 0 12px;
     }
+    
 }
