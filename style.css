@@ -251,6 +251,12 @@ button.btn {
     border-radius: 10px;
 }
 
+.whatsapp-link {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 100px;
+}
 
 
 @media (max-width: 767px) {
@@ -281,5 +287,5 @@ button.btn {
         font-size: 25px;
         margin: 0 0 12px;
     }
-    
+
 }
