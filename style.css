@@ -276,4 +276,8 @@ button.btn {
     .grid div img {
         max-width: 282px;
     }
+
+    h2 {
+        display: none;
+    }
 }
