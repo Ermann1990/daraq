@@ -61,11 +61,7 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: 1fr;
 }
-@media (max-width: 767px) {
-    .grid {
-        grid-template-columns: 1fr;
-    }
-}
+
 
 
 .grid div img {
@@ -253,4 +249,31 @@ button.btn {
 .btn.golden {
     font-family: 'Roboto', sans-serif;
     border-radius: 10px;
+}
+
+
+
+@media (max-width: 767px) {
+    .grid {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20%;
+    }
+
+    #logo-wrapper {
+        order: -1;
+    }
+
+    #logo-wrapper img, a.btn {
+        margin-bottom: 45px;
+    }
+
+
+    .grid > div:hover {
+        background-color: transparent;
+    }
+
+    .grid div img {
+        max-width: 282px;
+    }
 }
