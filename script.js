@@ -16,4 +16,15 @@ window.onload = function() {
     modal.style.display = "none";
     }
     }
+
+    let contactButton = document.querySelector(".whatsapp-link");
+    let targetBlock = document.querySelector(".contact-wrapper");
+
+    contactButton.onclick = function() {
+        targetBlock.classList.toggle("active");
+    }
 }
+
+
+
+

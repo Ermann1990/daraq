@@ -293,8 +293,50 @@ button.btn {
         margin-bottom: 50px;
     }
 
-    a.btn:not(:last-child) {
-        border-bottom: 1px solid #FFFFFF;
-    }
+}
 
+
+.contact-wrapper {
+    width: 0px;
+    position: absolute;
+    right: 120px;
+    bottom: 32px;
+    transition: width 1s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.45);
+    height: 150px;
+}
+
+.active {
+    width: 250px;
+    opacity: 1;
+}
+
+.contact-wrapper ul{
+    list-style: none;
+    padding-left: 32px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    flex: 1;
+    height: 100%;
+    padding: 16px
+}
+
+.contact-wrapper ul li{
+    flex: auto;
+}
+
+.contact-wrapper ul li a {
+    font-family: 'Roboto', sans-serif;
+    opacity: 0;
+    text-decoration: none;
+    color: white;
+    visibility: hidden;
+}
+
+.contact-wrapper.active ul li a {
+    opacity: 1;
+    transition:  2.4s ease-in-out;
+    visibility: visible;
+    font-size: 25px;
 }
