@@ -95,7 +95,6 @@ h2 {
 
 .grid > div:hover {
     background-color: rgba(255, 255, 255, 0.35);
-    cursor: pointer;
 }
 
 .grid div:hover a.btn {
@@ -104,6 +103,10 @@ h2 {
 
 .grid div:hover a.btn path {
     fill: black;
+}
+
+a.btn:hover {
+    cursor: pointer;
 }
 
 .grid div:hover h2 {
