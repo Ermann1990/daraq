@@ -293,8 +293,16 @@ button.btn {
         overflow: hidden;
     }
 
-}
+    video {
+        display: none;
+    }
 
+    body {
+        background-image: url('assets/images/bg-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
 
 .contact-wrapper {
     width: 0px;
