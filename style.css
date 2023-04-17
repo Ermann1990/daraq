@@ -272,7 +272,7 @@ button.btn {
     }
 
     #logo-wrapper img, a.btn {
-        margin-bottom: 35px;
+        margin-bottom: 45px;
     }
 
 
@@ -289,8 +289,8 @@ button.btn {
         margin: 0 0 12px;
     }
 
-    a.btn {
-        margin-bottom: 50px;
+    html, body {
+        overflow: hidden;
     }
 
 }
@@ -307,7 +307,7 @@ button.btn {
 }
 
 .active {
-    width: 250px;
+    width: 225px;
     opacity: 1;
 }
 
@@ -332,11 +332,11 @@ button.btn {
     text-decoration: none;
     color: white;
     visibility: hidden;
+    font-size: 25px;
 }
 
 .contact-wrapper.active ul li a {
     opacity: 1;
     transition:  2.4s ease-in-out;
     visibility: visible;
-    font-size: 25px;
 }
