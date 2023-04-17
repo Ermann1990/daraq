@@ -100,7 +100,6 @@ h2 {
 
 .grid div:hover a.btn {
     color: #000000;
-    border: 1px solid #000000;
 }
 
 .grid div:hover a.btn path {
@@ -128,7 +127,7 @@ a.btn {
 }
 
 a.btn:after {
-    content: url('assets/icons/arrow-right.svg');
+    content: url(assets/icons/arrow-right.svg);
 }
 
 a.btn path {
