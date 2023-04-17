@@ -128,7 +128,7 @@ a.btn {
 }
 
 a.btn:after {
-    content: url('')
+    content: url('');
 }
 
 a.btn path {
