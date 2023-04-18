@@ -308,7 +308,7 @@ button.btn {
 
     a.btn {
         font-size: 32px;
-        justify-content: space-between;
+        justify-content: center;
     }
 
     a.btn::after {
