@@ -314,6 +314,10 @@ button.btn {
     a.btn::after {
         height: 41px; 
     }
+
+    .container-fluid {
+        background: rgba(0, 0, 0, 0.58);
+    }
 }
 
 .contact-wrapper {
