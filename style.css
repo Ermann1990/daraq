@@ -283,11 +283,6 @@ button.btn {
         margin-bottom: 35px;
     }
 
-
-    .grid > div:hover {
-        background-color: transparent;
-    }
-
     .grid div img {
         max-width: 282px;
     }
