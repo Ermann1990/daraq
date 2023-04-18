@@ -318,6 +318,10 @@ button.btn {
     .container-fluid {
         background: rgba(0, 0, 0, 0.58);
     }
+
+    .modal .modal-content {
+        max-width: 92%;
+    }
 }
 
 .contact-wrapper {
