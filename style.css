@@ -362,6 +362,7 @@ button.btn {
 
 .contact-wrapper ul li a img{
     max-width: 21px;
+    min-width: 21px;
     width: 100%;
 }
 
