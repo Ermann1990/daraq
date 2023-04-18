@@ -97,14 +97,6 @@ h2 {
     background-color: rgba(255, 255, 255, 0.35);
 }
 
-.grid div:hover a.btn {
-    color: #000000;
-}
-
-.grid div:hover a.btn path {
-    fill: black;
-}
-
 a.btn:hover {
     cursor: pointer;
 }
@@ -115,6 +107,7 @@ a.btn:hover {
 
 a.btn {
     font-family: 'Roboto', sans-serif;
+    border: 1px solid white;
     color: white;
     border-radius: 10px;
     text-decoration: none;
