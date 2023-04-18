@@ -317,7 +317,7 @@ button.btn {
     }
 
     a.btn::after {
-        height: 32px; 
+        height: 41px; 
     }
 }
 
