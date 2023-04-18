@@ -106,7 +106,8 @@ a.btn:hover {
 }
 
 a.btn {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Jost', sans-serif;
+    font-weight: 200;
     border: 1px solid white;
     color: white;
     border-radius: 10px;
@@ -125,7 +126,7 @@ a.btn {
 a.btn:after {
     content: url(assets/icons/arrow-right.svg);
     width: 30px;
-    height: 37px;
+    height: 50px;
     margin-left: 15px;
 }
 
@@ -145,7 +146,10 @@ a.btn svg {
 }
 
 #logo-wrapper {
+    position: absolute;
     min-width: 350px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 
@@ -260,15 +264,23 @@ button.btn {
     .grid {
         display: flex;
         flex-direction: column;
-        padding-top: 18%;
+        padding-top: 211px;
+
     }
 
     #logo-wrapper {
-        order: -1;
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    
+    #logo-wrapper img{
+        max-width: 282px;
+
     }
 
     #logo-wrapper img, a.btn {
-        margin-bottom: 45px;
+        margin-bottom: 35px;
     }
 
 
@@ -297,6 +309,15 @@ button.btn {
         background-image: url('assets/images/bg-mobile.jpg');
         background-repeat: no-repeat;
         background-size: cover;
+    }
+
+    a.btn {
+        font-size: 32px;
+        justify-content: space-between;
+    }
+
+    a.btn::after {
+        height: 32px; 
     }
 }
 
