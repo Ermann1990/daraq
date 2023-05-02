@@ -208,7 +208,6 @@ a.btn svg {
     display: flex;
     flex-direction: column;
     height: 100%;
-
     justify-content: space-between;
 }
 
@@ -218,6 +217,10 @@ a.btn svg {
     background: transparent;
     padding: 15px 20px;
     border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 200;
 }
 
 .modal-content-wrapper form input::placeholder {
