@@ -17,6 +17,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200&display=swap" rel="stylesheet"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
 
 </head>
@@ -29,7 +30,8 @@
                 <h4>Enroll for lessons?</h4>
                 <form name="contact-daraq" data-netlify="true" method="POST">
                     <input type="text" name="f_name" placeholder="Name">
-                    <input type="text" name="phone" placeholder="+994559990099" pattern="[+][0-9]{1}[0-9]{11}" title="Please use correct format for example +994559990099">
+                    <!-- <input type="text" name="phone" id="phone" placeholder="+994559990099" pattern="[+][0-9]{1}[0-9]{11}" title="Please use correct format for example +994559990099"> -->
+                    <input type="text" name="phone" id="phone" placeholder="+994559990099"  title="Please use correct format for example +994559990099">
                     <button class="btn golden" type="submit">Enroll</button>
                 </form>
             </div>
@@ -45,7 +47,7 @@
             </div>
             <div class="grid">
                 <div>
-                    <a id="myBtn" href="avascript:void(0);" class="btn School" >
+                    <a id="myBtn" href="javascript:void(0);" class="btn School" >
                         School
                     </a>
                 </div>
