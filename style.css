@@ -397,3 +397,11 @@ button.btn {
         position: relative;
     }
 }
+
+.btn.studio span {
+    font-size: 12px;
+}
+
+.btn.studio:after {
+    content: none;
+}
