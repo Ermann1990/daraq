@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTPS_HOST} darag.az
+RewriteRule (.*) https://daraq.az/$1 [R=301,L]
